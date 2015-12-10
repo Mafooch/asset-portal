@@ -1,0 +1,19 @@
+2015-12-10 18:36:20.454+0000 INFO  [API] Setting startup timeout to: 120000ms based on 120000
+2015-12-10 18:36:22.829+0000 INFO  [API] Successfully started database
+2015-12-10 18:36:22.901+0000 INFO  [API] Starting HTTP on port :7000 with 4 threads available
+13:36:23.138 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @3850ms
+2015-12-10 18:36:23.189+0000 INFO  [API] Mounting static content at [/webadmin] from [webadmin-html]
+2015-12-10 18:36:23.254+0000 INFO  [API] Mounting static content at [/browser] from [browser]
+13:36:23.257 [main] INFO  org.eclipse.jetty.server.Server - jetty-9.2.4.v20141103
+13:36:23.275 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.h.MovedContextHandler@251101df{/,null,AVAILABLE}
+13:36:23.370 [main] INFO  o.e.j.w.StandardDescriptorProcessor - NO JSP Support for /webadmin, did not find org.apache.jasper.servlet.JspServlet
+13:36:23.385 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.w.WebAppContext@646b1aad{/webadmin,jar:file:/Users/joshuamaffuccio/Desktop/learning-rails/asset_portal/db/neo4j/development/system/lib/neo4j-server-2.2.7-static-web.jar!/webadmin-html,AVAILABLE}
+13:36:24.004 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@3e0281ed{/db/manage,null,AVAILABLE}
+13:36:24.323 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@47b26c88{/db/data,null,AVAILABLE}
+13:36:24.345 [main] INFO  o.e.j.w.StandardDescriptorProcessor - NO JSP Support for /browser, did not find org.apache.jasper.servlet.JspServlet
+13:36:24.346 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.w.WebAppContext@4dead325{/browser,jar:file:/Users/joshuamaffuccio/Desktop/learning-rails/asset_portal/db/neo4j/development/system/lib/neo4j-browser-2.2.7.jar!/browser,AVAILABLE}
+13:36:24.468 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@75498e8a{/,null,AVAILABLE}
+13:36:24.510 [main] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@56a0bbb6{HTTP/1.1}{localhost:7000}
+13:36:24.510 [main] INFO  org.eclipse.jetty.server.Server - Started @5230ms
+2015-12-10 18:36:24.511+0000 INFO  [API] Server started on: http://localhost:7000/
+2015-12-10 18:36:24.511+0000 INFO  [API] Remote interface ready and available at [http://localhost:7000/]
